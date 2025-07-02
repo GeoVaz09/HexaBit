@@ -53,45 +53,16 @@ def draw_number(num):
 
 #/////////////////////////////////////
 
+
+
+#/////////////////////////////////////
 # Apps for HexaBit:
-
 #/////////////////////////////////////
 
-# 1) Auto counting
-
-# test = 0
-
-# while True:
-#     draw_number(test)
-#     time.sleep(1)
-#     if test > 63:
-#         test = 0
-#     else:
-#         test = test + 1
-
-#/////////////////////////////////////
-
+# 1) Stopwatch
 # 2) Counter with buttons
+# 3) Timer (1 minute)
+# 4) Timer (1 hour)
 
-#test = 0
-
-#while True:
-#    if button_1.value() == 0:
-#        if test >= 63:
-#            test = 0
-#            draw_number(test)
-#            time.sleep(0.2)
-#
-#        else:
-#            test = test + 1
-#            draw_number(test)
-#            time.sleep(0.2)
-#
-#    if button_2.value() == 0:
-#        test = 0
-#        draw_number(test)
-#        time.sleep(0.2)
-#
-#    time.sleep(0.01)
 
 #/////////////////////////////////////

@@ -36,12 +36,27 @@ def draw_number(num):
 
 # 1) Stopwatch
 
-test = 0
+# Note: It is a bit annoying to stop or reset it
+
+sec = 0
+state = False
 
 while True:
-     draw_number(test)
-     time.sleep(1)
-     if test > 63:
-         test = 0
-     else:
-         test = test + 1
+    if state:
+        draw_number(sec)
+        time.sleep(1)
+        if sec > 63:
+            sec = 0
+        else:
+            sec = sec + 1
+
+    if button_1.value() == 0:
+        state = not state
+        time.sleep(0.2)
+
+    if button_2.value() == 0:
+        state = False
+        sec = 0
+        draw_number(sec)
+    
+    time.sleep(0.01)

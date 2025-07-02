@@ -34,25 +34,68 @@ def draw_number(num):
     else:
         print("Error: The number in this function is not an int or is not between 0 and 63")
 
-# 2) Counter
+# 3) Timer (1 minute)
 
-test = 0
+# Note: It is a bit annoying to stop or reset it
+
+sec = 60
+state = False
 
 while True:
+    if state:
+        draw_number(sec)
+        time.sleep(1)
+        sec = sec - 1
+
     if button_1.value() == 0:
-        if test >= 63:
-            test = 0
-            draw_number(test)
-            time.sleep(0.2)
-
-        else:
-            test = test + 1
-            draw_number(test)
-            time.sleep(0.2)
-
-    if button_2.value() == 0:
-        test = 0
-        draw_number(test)
+        state = not state
         time.sleep(0.2)
 
+    if button_2.value() == 0:
+        state = False
+        sec = 60
+        draw_number(sec)
+    
+    if sec == 0:
+        for i in range(10):
+            draw_number(63)
+            time.sleep(0.2)
+            draw_number(0)
+            time.sleep(0.2)
+            state = False
+            sec = 60
+            draw_number(sec)
+    time.sleep(0.01)
+
+
+# 4) Timer (1 hour)
+
+# Note: I is extreamly hard to stop or reset it
+
+min = 60
+state = False
+
+while True:
+    if state:
+        draw_number(min)
+        time.sleep(60)
+        min = min - 1
+
+    if button_1.value() == 0:
+        state = not state
+        time.sleep(0.2)
+
+    if button_2.value() == 0:
+        state = False
+        min = 60
+        draw_number(min)
+    
+    if min == 0:
+        for i in range(10):
+            draw_number(63)
+            time.sleep(0.2)
+            draw_number(0)
+            time.sleep(0.2)
+            min = 60
+            draw_number(min)
     time.sleep(0.01)
