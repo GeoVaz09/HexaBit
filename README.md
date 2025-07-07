@@ -37,7 +37,7 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 | 5️⃣   | **Clock**              | Real-time binary clock (HH:MM approx.)   |
 
 - Each app is loaded separately via MicroPython script. 
-- Keep in mind apps 3&4 are in one file,so one of the two has to be deleted.
+- Keep in mind apps 3 and 4 are in one file, so one of the two has to be deleted.
 - I have videos explaining the apps (Recomandation: see the videos in the order mentioned above)
 ---
 
