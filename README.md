@@ -22,7 +22,7 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 - 6 LEDs (any color)
 - 6 Resistors (e.g., 220Ω)
 - Breadboard or PCB
-- Optional: Push buttons for user input
+- Push buttons for user input
 
 ---
 
@@ -34,15 +34,9 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 | 2️⃣   | **Counter with Buttons** | Increment/decrement using input buttons     |
 | 3️⃣   | **1-Minute Timer**     | Countdown from 60 seconds (binary format)   |
 | 4️⃣   | **1-Hour Timer**       | Countdown from 3600 seconds                 |
-| 5️⃣   | **Clock**              | Real-time binary clock (HH:MM:SS approx.)   |
+| 5️⃣   | **Clock**              | Real-time binary clock (HH:MM approx.)   |
 
-Each app is loaded separately via MicroPython script or selectable through a button combo if extended.
-
----
-
-## 📷 Project Preview
-
-> _(Insert a GIF or image of HexaBit in action here!)_
+Each app is loaded separately via MicroPython script. Apps 3 and 4 are in one file.
 
 ---
 
@@ -50,7 +44,7 @@ Each app is loaded separately via MicroPython script or selectable through a but
 
 1. Connect your Raspberry Pi Pico to your PC.
 2. Flash it with MicroPython (if not already done).
-3. Clone this repo and upload files using [Thonny](https://thonny.org/) or your favorite IDE.
+3. Clone this repo and upload files using [Thonny](https://thonny.org/).
 4. Modify `main.py` to choose the app you want to run.
 5. Power up and enjoy your blinking bits!
 
@@ -62,4 +56,3 @@ Each app is loaded separately via MicroPython script or selectable through a but
 - Add rotary encoder for input
 - Use RGB LEDs for extra state feedback
 - Add app switcher via long-press button logic
-- Create a web interface to select apps (via USB or serial)
