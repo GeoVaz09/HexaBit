@@ -1,6 +1,6 @@
 # 🔷 HexaBit - 6-Bit LED MicroApp System
 
-**HexaBit** is a compact Raspberry Pi Pico project utilizing **6 LEDs** (bits) to run various minimal yet functional applications. Designed to be simple, hackable, and educational, HexaBit demonstrates how much you can achieve with just a few GPIO pins and some clever coding.
+**HexaBit** is a compact Raspberry Pi Pico project utilizing **6 LEDs** (bits) to run various minimal yet functional applications. Designed to be simple, hackable, and educational, HexaBit demonstrates how much you can achieve with just a few GPIO pins and some clever coding. 
 
 Whether you're learning embedded systems or just want a cool multi-functional LED device, HexaBit is for you!
 
@@ -31,13 +31,13 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 | App # | Name                  | Description                                 |
 |-------|-----------------------|---------------------------------------------|
 | 1️⃣   | **Stopwatch**          | Binary stopwatch that counts seconds        |
-| 2️⃣   | **Counter with Buttons** | Increment/decrement using input buttons     |
+| 2️⃣   | **Counter**            | Increment/decrement using input buttons     |
 | 3️⃣   | **1-Minute Timer**     | Countdown from 60 seconds (binary format)   |
 | 4️⃣   | **1-Hour Timer**       | Countdown from 3600 seconds                 |
 | 5️⃣   | **Clock**              | Real-time binary clock (HH:MM approx.)   |
 
-Each app is loaded separately via MicroPython script. Apps 3 and 4 are in one file.
-
+Each app is loaded separately via MicroPython script. Keep in mind apps 3&4 are in one file,so one of the two has to be deleted.
+I have videos explaining the apps (Recomandation: see the videos in the order mentioned above)
 ---
 
 ## 🛠️ Setup Instructions
@@ -56,3 +56,9 @@ Each app is loaded separately via MicroPython script. Apps 3 and 4 are in one fi
 - Add rotary encoder for input
 - Use RGB LEDs for extra state feedback
 - Add app switcher via long-press button logic
+
+---
+
+## Disclaimer!
+
+This readme file is a product of AI use.
