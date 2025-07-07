@@ -40,46 +40,48 @@ def draw_number(num):
 
 hours = 0
 minutes = 0
-setting_time = False
 
-while setting_time:
+
+while mode_pin.value() == 0:
     if button_1.value() == 0:
-        if hours == 24:
+        if hours >= 24:
             hours = 0
         else:
             hours = hours + 1
+            time.sleep(0.2)
         draw_number(hours)
-        time.sleep(0.3)
 
     if button_2.value() == 0:
-        if minutes == 60:
+        if minutes >= 60:
             minutes = 0
         else:
             minutes = minutes + 1
+            time.sleep(0.2)
         draw_number(minutes)
-        time.sleep(0.3)
-    
-    if mode_pin.value() != 0:
-            draw_number(0)
-            setting_time = False
-            time.sleep(0.3)
+
+draw_number(0)
 
 while True:
-    draw_number(0)
     for i in range(60):
         if button_1.value() == 0:
             draw_number(hours)
-            time.sleep(0.3)
-        if button_2.value() == 0:
-            draw_number(minutes)
-        if mode_pin.value() == 0:
+            time.sleep(0.5)
             draw_number(0)
-            setting_time = True
-            time.sleep(0.3)
-        time.sleep(1)
+            time.sleep(0.5)
+
+        elif button_2.value() == 0:
+            draw_number(minutes)
+            time.sleep(0.5)
+            draw_number(0)
+            time.sleep(0.5)
+        else:
+            time.sleep(1)
+    
     minutes = minutes + 1
+
     if minutes >= 60:
         minutes = 0
-        hours = hours + 1
+        hours += 1
+
     if hours >= 24:
         hours = 0
