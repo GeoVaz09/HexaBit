@@ -38,6 +38,8 @@ def draw_number(num):
     else:
         print("Error: The number in this function is not an int or is not between 0 and 63")
 
+# 5) Clock
+
 hours = 0
 minutes = 0
 

@@ -36,26 +36,36 @@ def draw_number(num):
 
 # 3) Timer (1 minute)
 
-# Note: It is a bit annoying to stop or reset it
-
 sec = 60
 state = False
+
+draw_number(sec)
 
 while True:
     if state:
         draw_number(sec)
-        time.sleep(1)
+        for i in range(10):
+            if button_1.value() == 0:
+                state = not state
+                time.sleep(0.2)
+
+            elif button_2.value() == 0:
+                state = False
+                sec = 0
+                draw_number(sec)
+            else:
+                time.sleep(0.1)
         sec = sec - 1
+    else:
+        if button_1.value() == 0:
+            state = not state
+            time.sleep(0.2)
 
-    if button_1.value() == 0:
-        state = not state
-        time.sleep(0.2)
+        if button_2.value() == 0:
+            state = False
+            sec = 60
+            draw_number(sec)
 
-    if button_2.value() == 0:
-        state = False
-        sec = 60
-        draw_number(sec)
-    
     if sec == 0:
         for i in range(10):
             draw_number(63)
@@ -65,37 +75,50 @@ while True:
             state = False
             sec = 60
             draw_number(sec)
+
     time.sleep(0.01)
 
 
 # 4) Timer (1 hour)
 
-# Note: I is extreamly hard to stop or reset it
-
 min = 60
 state = False
+
+draw_number(min)
 
 while True:
     if state:
         draw_number(min)
-        time.sleep(60)
+        for i in range(600):
+            if button_1.value() == 0:
+                state = not state
+                time.sleep(0.2)
+
+            elif button_2.value() == 0:
+                state = False
+                min = 60
+                draw_number(min)
+            else:
+                time.sleep(0.1)
         min = min - 1
+    else:
+        if button_1.value() == 0:
+            state = not state
+            time.sleep(0.2)
 
-    if button_1.value() == 0:
-        state = not state
-        time.sleep(0.2)
+        if button_2.value() == 0:
+            state = False
+            min = 60
+            draw_number(min)
 
-    if button_2.value() == 0:
-        state = False
-        min = 60
-        draw_number(min)
-    
     if min == 0:
         for i in range(10):
             draw_number(63)
             time.sleep(0.2)
             draw_number(0)
             time.sleep(0.2)
+            state = False
             min = 60
             draw_number(min)
+
     time.sleep(0.01)

@@ -63,6 +63,7 @@ def draw_number(num):
 # 2) Counter with buttons
 # 3) Timer (1 minute)
 # 4) Timer (1 hour)
+# 5) Clock
 
 
 #/////////////////////////////////////
