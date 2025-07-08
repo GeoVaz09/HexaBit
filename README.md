@@ -60,6 +60,24 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 
 ---
 
+## 🎬 Demo Videos
+
+Experience HexaBit in action! Watch the videos below to see each app and feature demonstrated on real hardware.
+
+| Title | Description | Watch |
+|-------|-------------|-------|
+| 🧭 **Introduction** | Overview of the HexaBit project and its capabilities. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/a8d303478983ad42c770b58a8853164f75be95bb_introduction.mp4) |
+| ⏱️ **Stopwatch** | See the binary stopwatch counting seconds. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/90e5a23981201ba161b6cd162c83b12a36da6e44_stopwatch.mp4) |
+| 🔢 **Counter with Buttons** | Increment/decrement the counter using button input. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/66531f7de94bc00e98d94bc6f1dca76859121da3_counter.mp4) |
+| ⏲️ **Timers (Part 1)** | Demonstrates the 1-minute and 1-hour timer logic. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/43e7cd0f3bc0b1ed154fc84b6dc3d3625192933d_timers_part1.mp4) |
+| ⏲️ **Timers (Part 2)** | Continuation of timer apps and extra behavior. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b4bd8ca74b0d6686c3fbc84d6f72c52944103967_timer_part2.mp4) |
+| 🕒 **Clock** | Real-time binary clock display using LEDs. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/266be22194b9b4084d841a01661ef5349219d142_clock.mp4) |
+| 💡 **Ideas for Expansion** | Explore creative future possibilities with HexaBit. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/31a12bb31827b07beabea2949b3585878a92547f_ideas_for_expansion.mp4) |
+
+> 🎥 Thanks to [@George Vazakas](https://github.com/) for capturing the demos!
+
+---
+
 ## Disclaimer!
 
 This readme file is a product of AI use.
