@@ -74,8 +74,6 @@ Experience HexaBit in action! Watch the videos below to see each app and feature
 | 🕒 **Clock** | Real-time binary clock display using LEDs. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/266be22194b9b4084d841a01661ef5349219d142_clock.mp4) |
 | 💡 **Ideas for Expansion** | Explore creative future possibilities with HexaBit. | [Watch Video](https://hc-cdn.hel1.your-objectstorage.com/s/v3/31a12bb31827b07beabea2949b3585878a92547f_ideas_for_expansion.mp4) |
 
-> 🎥 Thanks to [@George Vazakas](https://github.com/) for capturing the demos!
-
 ---
 
 ## Disclaimer!
