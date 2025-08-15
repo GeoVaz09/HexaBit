@@ -20,11 +20,13 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 
 - Raspberry Pi Pico
 - 6 LEDs (any color)
-- 6 Resistors (e.g., 220Ω)
+- 6 Resistors (e.g., 1000Ω)
 - Breadboard or PCB
 - Push buttons for user input
 
-![Circuit](./Hexabit/diagrams/circuit.png)
+![Circuit](https://hc-cdn.hel1.your-objectstorage.com/s/v3/c1ad3112f604a44a2c620457068d6bd98ee92249_circuit.png)
+
+- You can found this file in the diagrams folders📁.
 
 ---
 
