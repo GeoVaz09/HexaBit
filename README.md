@@ -24,6 +24,8 @@ Whether you're learning embedded systems or just want a cool multi-functional LE
 - Breadboard or PCB
 - Push buttons for user input
 
+<img src="./Hexabit/diagrams/.png" alt="Circuit" width="300"/>
+
 ---
 
 ## 🧠 Apps for HexaBit
